@@ -1,0 +1,615 @@
+  body {
+    background-color: #edefed;
+    font-family: Arial, sans-serif;
+  }
+  
+  .row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .row_col {
+    padding: 0;
+    margin: 0;
+  }
+  
+  h4,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .row_nest {
+    height: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    #navbar_id {
+      background-color: #c41200;
+      border-color: #c41200;
+      color: white;
+      height: 80px;
+      border-radius: 0;
+      display: table;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    #header_container {
+      height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+    }
+    .navbar-right .dropdown-menu {
+      right: auto;
+      left: 0;
+    }
+    #site_name {
+      font-size: 35px;
+    }
+    #cuisine,
+    #popular,
+    #restaurant {
+      font-size: 20px;
+    }
+    .main_container {
+      height: 300px;
+    }
+    .main_content {
+      width: 700px;
+    }
+    .main_head {
+      font-size: 40px;
+      width: 100%;
+    }
+    .search_input {
+      height: 60px;
+      width: 80%;
+    }
+    #search-button {
+      font-size: 18px;
+      padding: 7px 15px;
+    }
+    #query {
+      padding: 5px 10px;
+      font-size: 18px;
+    }
+    .col2_1 {
+      height: calc(60% - 15px);
+      margin-bottom: 15px;
+      width: 100%;
+      padding-right: 0;
+    }
+    .col2_2 {
+      height: 40%;
+      width: 100%;
+      padding-right: 0;
+    }
+    .col1_nest_content,
+    .col2_nest_content {
+      padding: 15px;
+    }
+    .popular_thai {
+      padding-bottom: 35px;
+    }
+    .popular_thai h4 {
+      font-size: 35px;
+    }
+    .thai_bottom {
+      font-size: 14px;
+    }
+    .slider_text h4 {
+      font-size: 40px;
+    }
+    .view_rec {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 767px) and (min-width: 500px) {
+    #header_container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .container {
+      width: 90%;
+      margin: 30px auto 0 auto;
+      padding: 0;
+    }
+    .row_col {
+      height: 300px;
+      width: 100%;
+    }
+    .slider_container {
+      width: 90%;
+      padding: 0;
+      height: 200px;
+      margin: 30px auto;
+    }
+    #myCarousel {
+      height: 200px;
+    }
+    .slider_img {
+      height: 200px;
+    }
+    .item {
+      height: 200px
+    }
+    .col_nest {
+      padding: 10px;
+    }
+    .row_nest {
+      margin-top: 30px;
+    }
+    .col2_1 {
+      height: calc(60% - 15px);
+      margin-bottom: 15px;
+      width: 100%;
+      padding: 0;
+    }
+    .col2_2 {
+      height: 40%;
+      width: 100%;
+      padding: 0;
+    }
+    .col1_nest_content,
+    .col2_nest_content {
+      font-size: 20px;
+      padding: 5px;
+    }
+    .col1_nest_chef,
+    .col1_nest_chef h6 {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 499px) {
+    #header_container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .container {
+      width: 90%;
+      margin: 10px auto 0 auto;
+      padding: 0;
+    }
+    .row_col {
+      height: 250px;
+      width: 100%;
+    }
+    .slider_container {
+      width: 95%;
+      padding: 0;
+      height: 200px;
+      margin: 10px auto;
+    }
+    #myCarousel {
+      height: 200px;
+    }
+    .slider_img {
+      height: 200px;
+    }
+    .item {
+      height: 200px
+    }
+    .col_nest {
+      padding: 10px;
+    }
+    .row_nest {
+      margin-top: 10px;
+    }
+    .col2_1 {
+      height: calc(60% - 5px);
+      margin-bottom: 5px;
+      width: 100%;
+      padding: 0;
+    }
+    .col2_2 {
+      height: 40%;
+      width: 100%;
+      padding: 0;
+    }
+    .col1_nest_content,
+    .col2_nest_content {
+      font-size: 15px;
+    }
+    .col1_nest_chef,
+    .col1_nest_chef h6,
+    .col1_nest_head,
+    .col2_nest_head {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #navbar_id {
+      background-color: #c41200;
+      border-color: #c41200;
+      color: white;
+      height: 60px;
+      border-radius: 0;
+      display: table;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    #header_container {
+      height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+    }
+    #site_name {
+      font-size: 30px;
+    }
+    .main_container {
+      height: 250px;
+    }
+    .main_content {
+      padding: 10px;
+    }
+    .main_head {
+      font-size: 30px;
+      width: 100%;
+    }
+    .search_input {
+      height: 45px;
+      width: 80%;
+    }
+    #search-button {
+      font-size: 16px;
+      padding: 7px 15px;
+    }
+    #query {
+      padding: 5px 10px;
+      font-size: 16px;
+    }
+    .slider_text h4 {
+      font-size: 35px;
+    }
+  }
+  
+  @media (min-width: 1100px) {
+    #header_container {
+      padding-left: 80px;
+      padding-right: 60px;
+    }
+    .container {
+      width: 1040px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    .row_col {
+      height: 450px;
+    }
+    .slider_container {
+      width: 1040px;
+      padding: 20px;
+      height: 400px;
+      margin: 50px auto;
+    }
+    #myCarousel {
+      height: 400px;
+    }
+    .slider_img {
+      height: 400px;
+    }
+    .item {
+      height: 400px
+    }
+    .col_nest {
+      padding: 20px;
+    }
+    .col1_nest_content,
+    .col2_nest_content {
+      font-size: 25px;
+    }
+    .col1_nest_chef,
+    .col1_nest_chef h6 {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 767px) and (max-width: 1099px) {
+    #header_container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .container {
+      width: 750px;
+      margin: 30px auto;
+      padding: 0;
+    }
+    .row_col {
+      height: 350px;
+    }
+    .slider_container {
+      width: 750px;
+      padding: 0;
+      height: 300px;
+      margin: 20px auto;
+    }
+    #myCarousel {
+      height: 300px;
+    }
+    .slider_img {
+      height: 300px;
+    }
+    .item {
+      height: 300px
+    }
+    .col_nest {
+      padding: 10px;
+    }
+    .col1_nest_content,
+    .col2_nest_content {
+      font-size: 22px;
+    }
+    .col1_nest_chef,
+    .col1_nest_chef h6 {
+      font-size: 18px;
+    }
+  }
+  
+  #site_name,
+  #cuisine,
+  #popular,
+  #restaurant {
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-toggle:focus,
+  .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+  }
+  
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    border: none;
+  }
+  
+  .navbar-inverse .navbar-toggle {
+    border: none;
+  }
+  
+  #nav_btn {
+    border: none;
+  }
+  
+  #site_name {
+    font-weight: bold;
+  }
+  
+  .text_center {
+    text-align: center;
+  }
+  
+  .main_container {
+    background-image: url(../images/Food.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .main_content {
+    display: table;
+    margin: auto;
+    height: 100%;
+  }
+  
+  .va_align {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .main_head {
+    color: white;
+    text-shadow: 0 0 15px black, 0 0 25px black, 0 0 35px #000;
+    font-weight: bold;
+  }
+  
+  .main_content_search {}
+  
+  .search_input {
+    margin: auto;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  #query {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    outline: none;
+  }
+  
+  .search_btn_div {
+    height: 100%;
+    margin-top: 10px;
+  }
+  
+  #search-button {
+    height: 100%;
+    background-color: #c41200;
+    color: white;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #941407;
+  }
+  
+  .col1 {
+    background-image: url(../images/thai.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: table;
+  }
+  
+  .popular_thai {
+    background: linear-gradient(to bottom, rgba(27, 26, 25, 0) 0, rgba(27, 26, 25, 0.7) 100%);
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: bottom;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .popular_thai h4 {
+    font-weight: 600;
+  }
+  
+  .popular_bottom {
+    font-weight: lighter;
+  }
+  
+  .img1 {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../images/indian.jpg);
+  }
+  
+  .img2 {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../images/milkshake.jpg);
+  }
+  
+  .col_nest {
+    background-color: white;
+    float: left;
+    margin: 0;
+    width: 40%;
+    height: 100%;
+  }
+  
+  .col1_nest_head,
+  .col2_nest_head {
+    color: #c41200;
+    font-weight: 400;
+  }
+  
+  .col1_nest_content,
+  .col2_nest_content {
+    font-weight: bold;
+    color: #707070;
+  }
+  
+  .col1_nest_chef {
+    color: #707070;
+  }
+  
+  .col1_nest_chef h6 {
+    display: inline-block;
+    color: #c41200;
+  }
+  
+  .slider_img {
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+  }
+  
+  .pizza {
+    background-image: url(../images/pizza.jpg);
+  }
+  
+  .paneer {
+    background-image: url(../images/paneer.jpg);
+  }
+  
+  .noodle {
+    background-image: url(../images/noodle.jpg);
+  }
+  
+  .spring_rolls {
+    background-image: url(../images/springrolls.jpg);
+  }
+  
+  .slider_text {
+    background: linear-gradient(to top, rgba(27, 26, 25, 0) 0, rgba(27, 26, 25, 0.7) 100%);
+    height: 40%;
+  }
+  
+  .slider_text h4,
+  .view_rec {
+    color: white;
+  }
+  
+  .view_rec {
+    border-bottom: 1px solid white;
+  }
+  
+  .view_rec:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #505050;
+  }
+  
+  .social_list {
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  .social_list li {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .social_icon {
+    display: inline-block;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .fb {
+    background-image: url(../images/facebook.png);
+  }
+  
+  .git {
+    background-image: url(../images/github.png);
+  }
+  
+  .li {
+    background-image: url(../images/linkedin.png);
+  }
+  
+  .email {
+    background-image: url(../images/email.png);
+  }
+  
+  .navbar li:hover {
+    background-color: #BB1C0C;
+  }
+  
+  .navbar-inverse .navbar-nav>.open>a,
+  .navbar-inverse .navbar-nav>.open>a:focus,
+  .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #BB1C0C;
+  }
+  
+  .dropdown-menu li a {
+    color: #BB1C0C;
+    font-weight: 500;
+  }

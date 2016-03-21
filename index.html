@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Search</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/search.js"></script>
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/autocomplete.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav id="navbar_id" class="navbar navbar-inverse">
+      <div id="header_container" class="container-fluid">
+        <div class="navbar-header">
+          <button id="nav_btn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="site_name" class="navbar-brand w_color" href="#">FOOGLE</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a id="popular" href=".slider_container">Popular recipes</a>
+            </li>
+            <li>
+              <a id="restaurant" href="restaurants.html">Find Restaurants</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <section class="main_container text_center">
+    <div class="main_content text_center">
+      <div class="va_align">
+        <div class="main_content_header text_center">
+          <div class="main_head">Google for your favorite food</div>
+        </div>
+
+        <div class="search_form text_center">
+          <form class="main_content_search text_ceneter" onsubmit="loadinfo(event)">
+            <div class="search_input">
+              <input name="search" id="query" placeholder="Search for your favorite dishes" type="text" autofocus>
+            </div>
+            <div class="search_btn_div">
+              <input name="button" type="submit" id="search-button" value="Search">
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <section class="row">
+      <div class="row_col col-sm-5 text_center">
+        <a>
+          <div class="col1">
+            <div class="popular_thai text_center">
+              <h4>Popular Thai Dishes</h4>
+              <div class="thai_bottom">From flat noodles to spicy curry</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="row_col col2 col-sm-7 text_center">
+        <div class="row row_nest">
+          <div class="col-sm-12 col2_1">
+            <a>
+              <div class="col1_nest col_nest">
+                <div class="col1_nest_head text_center">Recipe of the day</div>
+                <div class="col1_nest_content text_center">Spinach Artichoke Dip</div>
+                <div class="col1_nest_chef text_center">By
+                  <h6>martha</h6></div>
+              </div>
+              <div class="img1"></div>
+            </a>
+          </div>
+          <div class="col-sm-12 col2_2">
+            <a>
+              <div class="col2_nest col_nest">
+                <div class="col2_nest_head">Learn how to make</div>
+                <div class="col2_nest_content">Emerald Mint Milkshake</div>
+              </div>
+              <div class="img2"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <div class="container slider_container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="slider_img pizza">
+            <div class="slider_text text_center">
+              <h4>Pizza</h4>
+              <a class="view_rec">View Recipe</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="slider_img spring_rolls">
+            <div class="slider_text text_center">
+              <h4>Spring Rolls</h4>
+              <a class="view_rec">View Recipe</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="slider_img noodle">
+            <div class="slider_text text_center">
+              <h4>Noodles</h4>
+              <a class="view_rec">View Recipe</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="slider_img paneer">
+            <div class="slider_text text_center">
+              <h4>Paneer makhani</h4>
+              <a class="view_rec">View Recipe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <footer>
+    <ul class="social_list text_center">
+      <li>
+        <a class="social_icon email redirect"></a>
+      </li>
+      <li>
+        <a class="social_icon fb redirect"></a>
+      </li>
+      <li>
+        <a class="social_icon li redirect"></a>
+      </li>
+      <li>
+        <a class="social_icon git redirect"></a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+<script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+
+
+</html>
