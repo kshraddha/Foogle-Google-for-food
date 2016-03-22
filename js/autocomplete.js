@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $.ajax({
     type: "GET",
-    url: "auto.txt",
+    url: "text/auto.txt",
     dataType: "text",
     success: function (data) {
       var myLines = data.split(/\r\n|\n/);

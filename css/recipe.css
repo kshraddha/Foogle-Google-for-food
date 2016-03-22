@@ -1,0 +1,292 @@
+body {
+  line-height: 150%;
+  color: #333333;
+}
+
+h4,
+h5 {
+  margin: 0;
+}
+
+@media (min-width:768px) {
+  .recipe_container {
+    padding: 20px;
+  }
+  .recipe_row {
+    max-width: 1250px;
+    min-width: 700px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  #dessert_container {
+    max-width: 1050px;
+  }
+  .recipe_img,
+  .recipe_title {
+    height: 300px;
+    padding: 20px 0;
+  }
+  .recipe_title {
+    padding-right: 15px;
+  }
+  .recipe_name h4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #c41200;
+  }
+  .recipe_name {
+    margin-bottom: 17px;
+  }
+  .recipe_img,
+  .recipe_title {
+    border-bottom: 1px solid gainsboro;
+  }
+  .recipe_note {
+    margin-top: 10px;
+    padding-right: 20px;
+  }
+  .recipe_note h5 {
+    line-height: 150%;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ingredients,
+  .directions {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .recipe_items {
+    padding: 20px 20px 20px 0;
+  }
+  .recipe_directions {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 990px) {
+  .aside_row {
+    height: 600px;
+  }
+  .recipe_col2 {
+    padding-right: 0;
+    padding-left: 20px;
+  }
+  .aside_row h4 {
+    font-size: 18px;
+    padding: 0 0 15px 0;
+  }
+  .aside_title {
+    padding: 7px 5px;
+    font-size: 14px;
+  }
+  .aside_col {
+    margin-bottom: 5px;
+    height: calc((100% - 30px)/3);
+    padding: 5px;
+    background-color: white;
+    border: 1px solid gainsboro;
+  }
+  .aside_img {
+    height: 85%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hide_md {
+    display: none;
+  }
+  .recipe_col2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0;
+  }
+  .aside_col {
+    padding: 5px;
+  }
+  .col2_padding {
+    padding: 5px;
+    background-color: white;
+  }
+  .aside_img {
+    height: 200px;
+  }
+  .aside_title {
+    padding: 7px 5px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .hide_sm {
+    display: none;
+  }
+  .recipe_row {
+    max-width: 100%;
+    min-width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .recipe_container {
+    padding: 10px;
+    width: 100%;
+  }
+  .recipe_title {
+    margin-bottom: 10px;
+  }
+  .recipe_name {
+    text-align: center;
+  }
+  .recipe_time,
+  .recipe_serving {
+    height: 29px;
+  }
+  .recipe_name h4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #c41200;
+  }
+  .recipe_name {
+    margin: 15px 0;
+  }
+  .recipe_img {
+    max-width: 350px;
+    width: auto;
+    height: 250px;
+    margin: auto;
+    padding: 10px 0;
+  }
+  .recipe_note {
+    margin-top: 10px;
+    padding-right: 20px;
+  }
+  .recipe_note h5 {
+    line-height: 150%;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ingredients,
+  .directions {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .recipe_items {
+    padding: 20px 20px 20px 0;
+  }
+  .recipe_directions {
+    padding: 20px 0;
+  }
+}
+
+.recipe_container {
+  margin: auto;
+  width: 100%;
+}
+
+.recipe_col1 {
+  background-color: white;
+  border: 1px solid gainsboro;
+  box-shadow: 1px 2px 2px #CCC;
+}
+
+.thai_img {
+  background-image: url(../images/noodle.jpg);
+}
+
+.pizza_img {
+  background-image: url(../images/pizza.jpg);
+}
+
+.paneer_img {
+  background-image: url(../images/paneer.jpg);
+}
+
+.rolls_img {
+  background-image: url(../images/springrolls.jpg);
+}
+
+.dessert_img {
+  background-image: url(../images/dessert.jpg);
+}
+
+.recipe_img_bg {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.recipe_items,
+.recipe_directions {
+  line-height: 170%;
+}
+
+.recipe_time {
+  display: inline-block;
+  float: left;
+}
+
+.recipe_serving {
+  display: inline-block;
+}
+
+.recipe_time span,
+.recipe_serving span {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  float: left;
+}
+
+.clock_icon {
+  background-image: url(../images/clock.svg);
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+}
+
+.serving_icon {
+  background-image: url(../images/serving.svg);
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.col2_padding {
+  height: 100%;
+}
+
+.aside_img {
+  background-size: cover;
+  background-position: center;
+}
+
+.aside_thai_img {
+  background-image: url(../images/noodle.jpg);
+}
+
+.aside_pizza_img {
+  background-image: url(../images/pizza.jpg);
+}
+
+.aside_paneer_img {
+  background-image: url(../images/paneer.jpg);
+}
+
+.aside_rolls_img {
+  background-image: url(../images/springrolls.jpg);
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}

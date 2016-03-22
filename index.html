@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Search</title>
+  <title>Foogle</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="js/search.js"></script>
@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a id="popular" href=".slider_container">Popular recipes</a>
+              <a id="popular" href="#slider_id">Popular recipes</a>
             </li>
             <li>
               <a id="restaurant" href="restaurants.html">Find Restaurants</a>
@@ -52,7 +52,7 @@
         <div class="search_form text_center">
           <form class="main_content_search text_ceneter" onsubmit="loadinfo(event)">
             <div class="search_input">
-              <input name="search" id="query" placeholder="Search for your favorite dishes" type="text" autofocus>
+              <input name="search" id="query" placeholder="Search for your favorite dishes" type="text">
             </div>
             <div class="search_btn_div">
               <input name="button" type="submit" id="search-button" value="Search">
@@ -67,7 +67,7 @@
   <section class="container">
     <section class="row">
       <div class="row_col col-sm-5 text_center">
-        <a>
+        <a href="thai.html">
           <div class="col1">
             <div class="popular_thai text_center">
               <h4>Popular Thai Dishes</h4>
@@ -79,10 +79,10 @@
       <div class="row_col col2 col-sm-7 text_center">
         <div class="row row_nest">
           <div class="col-sm-12 col2_1">
-            <a>
+            <a href="paneer.html">
               <div class="col1_nest col_nest">
                 <div class="col1_nest_head text_center">Recipe of the day</div>
-                <div class="col1_nest_content text_center">Spinach Artichoke Dip</div>
+                <div class="col1_nest_content text_center">Paneer butter masala</div>
                 <div class="col1_nest_chef text_center">By
                   <h6>martha</h6></div>
               </div>
@@ -90,10 +90,10 @@
             </a>
           </div>
           <div class="col-sm-12 col2_2">
-            <a>
+            <a href="dessert.html">
               <div class="col2_nest col_nest">
                 <div class="col2_nest_head">Learn how to make</div>
-                <div class="col2_nest_content">Emerald Mint Milkshake</div>
+                <div class="col2_nest_content">Real Pistachio Cupcakes</div>
               </div>
               <div class="img2"></div>
             </a>
@@ -102,7 +102,7 @@
       </div>
     </section>
   </section>
-  <div class="container slider_container">
+  <div id="slider_id" class="container slider_container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
       <ol class="carousel-indicators">
@@ -114,39 +114,43 @@
 
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="slider_img pizza">
-            <div class="slider_text text_center">
-              <h4>Pizza</h4>
-              <a class="view_rec">View Recipe</a>
+          <a href="pizza.html">
+            <div class="slider_img pizza">
+              <div class="slider_text text_center">
+                <h4>Pizza</h4>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="item">
-          <div class="slider_img spring_rolls">
-            <div class="slider_text text_center">
-              <h4>Spring Rolls</h4>
-              <a class="view_rec">View Recipe</a>
+          <a href="spring_rolls.html">
+            <div class="slider_img spring_rolls">
+              <div class="slider_text text_center">
+                <h4>Spring Rolls</h4>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="item">
-          <div class="slider_img noodle">
-            <div class="slider_text text_center">
-              <h4>Noodles</h4>
-              <a class="view_rec">View Recipe</a>
+          <a href="thai.html">
+            <div class="slider_img noodle">
+              <div class="slider_text text_center">
+                <h4>Pad thai</h4>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="item">
-          <div class="slider_img paneer">
-            <div class="slider_text text_center">
-              <h4>Paneer makhani</h4>
-              <a class="view_rec">View Recipe</a>
+          <a href="paneer.html">
+            <div class="slider_img paneer">
+              <div class="slider_text text_center">
+                <h4>Paneer makhani</h4>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
 
@@ -163,16 +167,16 @@
   <footer>
     <ul class="social_list text_center">
       <li>
-        <a class="social_icon email redirect"></a>
+        <a class="social_icon email" href="mailto:shraddhakabade@gmail.com"></a>
       </li>
       <li>
-        <a class="social_icon fb redirect"></a>
+        <a class="social_icon fb" href="http://www.facebook.com/sharer.php?u=http://kshraddha.github.io/"></a>
       </li>
       <li>
-        <a class="social_icon li redirect"></a>
+        <a class="social_icon li" href="https://www.linkedin.com/in/shraddhakabade"></a>
       </li>
       <li>
-        <a class="social_icon git redirect"></a>
+        <a class="social_icon git" href="https://github.com/kshraddha"></a>
       </li>
     </ul>
   </footer>

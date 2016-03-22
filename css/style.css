@@ -101,6 +101,7 @@
     }
     .slider_text h4 {
       font-size: 40px;
+      padding-top: 15px;
     }
     .view_rec {
       font-size: 16px;
@@ -114,7 +115,7 @@
     }
     .container {
       width: 90%;
-      margin: 30px auto 0 auto;
+      margin: 25px auto 0 auto;
       padding: 0;
     }
     .row_col {
@@ -124,8 +125,7 @@
     .slider_container {
       width: 90%;
       padding: 0;
-      height: 200px;
-      margin: 30px auto;
+      margin: 25px auto;
     }
     #myCarousel {
       height: 200px;
@@ -171,7 +171,7 @@
     }
     .container {
       width: 90%;
-      margin: 10px auto 0 auto;
+      margin: 15px auto 0 auto;
       padding: 0;
     }
     .row_col {
@@ -182,7 +182,7 @@
       width: 95%;
       padding: 0;
       height: 200px;
-      margin: 10px auto;
+      margin: 15px auto;
     }
     #myCarousel {
       height: 200px;
@@ -264,8 +264,18 @@
       padding: 5px 10px;
       font-size: 16px;
     }
+    .popular_thai {
+      padding-bottom: 15px;
+    }
+    .popular_thai h4 {
+      font-size: 25px;
+    }
+    .thai_bottom {
+      font-size: 16px;
+    }
     .slider_text h4 {
-      font-size: 35px;
+      font-size: 30px;
+      padding-top: 5px;
     }
   }
   
@@ -276,7 +286,7 @@
     }
     .container {
       width: 1040px;
-      margin: 50px auto;
+      margin: 30px auto;
       padding: 20px;
     }
     .row_col {
@@ -285,8 +295,7 @@
     .slider_container {
       width: 1040px;
       padding: 20px;
-      height: 400px;
-      margin: 50px auto;
+      margin: 0 auto 30px auto;
     }
     #myCarousel {
       height: 400px;
@@ -385,7 +394,7 @@
   }
   
   .main_container {
-    background-image: url(../images/Food.jpg);
+    background-image: url(../images/f2.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -481,7 +490,8 @@
     width: 60%;
     height: 100%;
     background-size: cover;
-    background-image: url(../images/milkshake.jpg);
+    background-position: center;
+    background-image: url(../images/dessert.jpg);
   }
   
   .col_nest {
@@ -557,6 +567,10 @@
   a {
     text-decoration: none;
     cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: none;
   }
   
   footer {

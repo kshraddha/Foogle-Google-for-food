@@ -35,9 +35,7 @@
       jsonp: "callback",
       success: function (response) {
         var count = response.count;
-        if (count < recipe_res_num || count < recipe_res_num + 6) {
-          $('.rec_btn_div').css("display", "none");
-        }
+
         if (count == 0 && recipe_res_num == 0) {
           $('#edamam').append('<div class="not_found">No Results found</div>');
         }
@@ -50,6 +48,9 @@
             '</a></div>');
         };
         $('.rec_btn_div').css("display", "block");
+        if (count < recipe_res_num + 6) {
+          $('.rec_btn_div').css("display", "none");
+        }
         clearTimeout(RequestTimeout);
       }
     });
@@ -98,7 +99,7 @@
       var request = gapi.client.youtube.search.list({
         q: q,
         part: 'snippet',
-        maxResults: 3
+        maxResults: 6
       });
     }
 
@@ -106,11 +107,7 @@
     request.execute(function (response) {
       token = response.nextPageToken;
       var num_items = response.result.items.length;
-      if (num_items == 0) {
-        $('#video_res').append('<div class="not_found">No Results found</div>');
-        $('#video').css("background-color", "#edefed");
-        $('.vid_btn_div').css('display', 'none');
-      }
+
       console.log(response);
       var srchItems = response.result.items;
       $.each(srchItems, function (index, item) {
@@ -120,5 +117,10 @@
         $('#video_res').append('<div class="col-md-4 col-xs-6 video_content"><div class="iframe"><iframe id="v_player" type="text/html" src = "http://www.youtube.com/embed/' + vidId + '?&showinfo=0" frameborder = "0" allowfullscreen="allowfullscreen"></iframe></div>' + '<div class="video_info">' + '<h4 class="vid_title">' + vidTitle + '</h4>' + '<h5 class="vid_channel">CHANNEL: ' + vidChannel + '</h5>' + '</div>' + '</div>');
       });
       $('.vid_btn_div').css('display', 'block');
+      if (num_items == 0) {
+        $('#video_res').append('<div class="not_found">No Results found</div>');
+        $('#video').css("background-color", "#edefed");
+        $('.vid_btn_div').css('display', 'none');
+      }
     });
   }

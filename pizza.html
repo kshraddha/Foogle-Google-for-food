@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Pizza Recipe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/recipe.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/recipe.css" rel="stylesheet">
+</head>
+
+<body onload="load_details('pizza')">
+
+  <header>
+    <nav id="navbar_id" class="navbar navbar-inverse">
+      <div id="header_container" class="container-fluid">
+        <div class="navbar-header">
+          <button id="nav_btn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="site_name" class="navbar-brand w_color" href="#">FOOGLE</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a id="popular" href="index.html#slider_id">Popular recipes</a>
+            </li>
+            <li>
+              <a id="restaurant" href="restaurants.html">Find Restaurants</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container recipe_container">
+    <section class="row recipe_row">
+      <div class="col-md-10 recipe_col1">
+        <div class="row recipe_info_row">
+          <div class="col-sm-7 recipe_title">
+            <div class="recipe_name">
+              <h4>Veggie Pizza</h4></div>
+            <div class="recipe_time">
+              <span class="clock_icon"></span> <span>2 hour 40 mins</span></div>
+            <div class="recipe_serving">
+              <span class="serving_icon"></span> 5 servings</div>
+            <div class="recipe_note">
+              <h5>Quick and easy recipe that is great at parties and showers. You can use any combination of chopped veggies and cheeses-whatever your family likes. It's also the tastiest way to eat vegetables, ever.</h5></div>
+          </div>
+          <div class="col-sm-5 recipe_img">
+            <div class="pizza_img recipe_img_bg"></div>
+          </div>
+          <div class="col-sm-4 recipe_items">
+            <div class="ingredients">Ingredients</div>
+            <ul class="items_list">
+            </ul>
+          </div>
+          <div class="col-sm-8 recipe_directions">
+            <div class="directions">Directions</div>
+            <div class="step_1">
+              <div class="step1_content"></div>
+            </div>
+            <div class="step_2">
+              <div class="step2_content"></div>
+            </div>
+            <div class="step_3">
+              <div class="step3_content"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="col-md-2 hide_sm recipe_col2">
+        <div class="aside_row row">
+          <h4 class="hide_md">You might also like</h4>
+          <div class="col-md-12 col-xs-4 aside_col">
+            <a href="thai.html">
+              <div class="col2_padding">
+                <div class="aside_thai_img aside_img"> </div>
+                <div class="aside_title text_center">
+                  <h5 class="thai_name">Pad Thai</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-12 col-xs-4 aside_col">
+            <a href="paneer.html">
+              <div class="col2_padding">
+                <div class="aside_paneer_img aside_img"> </div>
+                <div class="aside_title text_center">
+                  <h5 class="paneer_name">Paneer Makhani</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-12 col-xs-4 aside_col">
+            <a href="spring_rolls.html">
+              <div class="col2_padding">
+                <div class="aside_rolls_img aside_img"> </div>
+                <div class="aside_title text_center">
+                  <h5 class="rolls_name">Spring Rolls</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </section>
+  <footer>
+    <ul class="social_list text_center">
+      <li>
+        <a class="social_icon email" href="mailto:shraddhakabade@gmail.com"></a>
+      </li>
+      <li>
+        <a class="social_icon fb" href="http://www.facebook.com/sharer.php?u=http://kshraddha.github.io/"></a>
+      </li>
+      <li>
+        <a class="social_icon li" href="https://www.linkedin.com/in/shraddhakabade"></a>
+      </li>
+      <li>
+        <a class="social_icon git" href="https://github.com/kshraddha"></a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
