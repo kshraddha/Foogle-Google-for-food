@@ -1,23 +1,7 @@
-Almond Malted Brittle Bars
 American Chop Suey
 Antipasto Salad
-Apple Chunkies
-Apple Cranberry Egg Rolls
-Apple Crisp
-Apple Doughnut Bombs
-Apple Topped Cake
-Apple Zucchini Crumb Bars
-Apple-Stuffed Acorn Squash
-Asian Barbecue Chicken Wings
-Asian Barbecue Sauce
-Asian Chicken Salad
-Asian Chicken Stock
-Asian Citrus Vinaigrette
-Asian Noodle Salad with Chicken
 Asian Noodle Soup
-Asparagus Lemon Risotto
 Avocado Chicken Pasta Salad
-Avocado Poppy Seed Dressing
 Alcohol
 Almond milk
 Almonds
@@ -28,10 +12,8 @@ Asparagu
 Avocado oil
 Avocados
 Baked Chicken Salad
-Baked Crusted Salmon
+Baked Salmon
 Baked Fig Crostini
-Baked Gnocchi with Italian Sausage
-Baked Stuffed Parmesan Tomatoes
 Baked Stuffed Shrimp
 Baked Zucchini Fries
 Banana Chocolate Chip
@@ -58,7 +40,6 @@ Black currants
 Black pepper
 Black rice
 Black tea
-Blue Cheese Dressing
 Blackberries
 Blueberries
 Boysenberries
@@ -75,8 +56,6 @@ Buckwheat
 Buckwheat honey
 Butter
 Butternut squash
-Caramelized Onion Dip
-Caramelized Pineapple Topping
 Carrot and Ginger Soup
 Cabbage
 Canola oil
@@ -150,9 +129,7 @@ Hummus
 Indian mustard
 Kale
 Kidney beans
-Kimchi
 King crab
-King mackerel
 Kiwifruit
 Lamb
 Lard
@@ -163,17 +140,11 @@ Lentils
 Lettuce
 Lima beans
 Limes
-Lingonberries
 Liquor
 Liver
 Liver pâté
 Lobster
-Loganberries
-Long pepper
-Low-fat yogurt
-Macadamia nut oil
-Macadamia nuts
-Maitake mushrooms
+Long peppe
 Mangoes
 Mayonnaise
 Meadow saffron
@@ -211,7 +182,6 @@ Papaya
 Papaya seeds
 Paprika
 Parsley
-Parsley seed oil
 pasta
 pizza
 Peaches
@@ -237,15 +207,11 @@ Plums
 Pomegranate juice
 Pomegranates
 Pork
-Portobello mushrooms
 Potato chips
 Potatoes
 Poultry
 Powdered sugar
 Prawns
-Prickly pears
-Probiotic yogurt
-Processed soy protein
 Protein bars
 Prunes
 Pumpkin seed oil
@@ -253,7 +219,7 @@ Pumpkin seeds
 Pumpkins
 Purple carrots
 Purple rice
-Purple sweet potatoes
+sweet potatoes
 Radish
 Raisins
 Raspberries
@@ -285,14 +251,12 @@ Safflower oil
 Saffron
 Salmon, wild
 Salt
-Salted shrimp paste
 Sandwich meats
 Sausages
 Sesame oil
 Sesame seeds
 Shallots
 Shellfish
-Shiitake mushrooms
 Shrimp
 Smoked turkey
 Snails
@@ -324,7 +288,6 @@ Tabasco sauce
 Table mushrooms
 Tahini
 Tangerines
-Tartary buckwheat
 Tea
 Tofu
 Tomato paste
@@ -333,7 +296,6 @@ Tropical ginger
 Turkey bacon
 Turkey, organic
 Turmeric
-Turnips and turnip greens
 Vinegar
 Walnut oil
 Walnuts
