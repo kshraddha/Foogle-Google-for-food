@@ -10,7 +10,7 @@
     if (q == '') {
       return false;
     } else {
-      window.open("result.html");
+      window.open("result.html", "_self");
       localStorage.setItem("shraddha_query", q);
     }
   }
@@ -27,7 +27,7 @@
     var RequestTimeout = setTimeout(function () {
       $('#edamam').append('<div class="not_found">Failed to get results</div>');
       $('.rec_btn_div').css("display", "none");
-    }, 10000);
+    }, 8000);
 
     $.ajax({
       url: eurl,
@@ -40,7 +40,6 @@
           $('#edamam').append('<div class="not_found">No Results found</div>');
         }
         var articleList2 = response.hits;
-        console.log(response);
         for (var i = 0; i < articleList2.length; i++) {
           var em = articleList2[i];
           var calories = Math.ceil(em.recipe.calories);
@@ -79,10 +78,14 @@
     gapi.client.load('youtube', 'v3', function () {
       makeRequest();
     });
+
   }
 
   function makeRequest() {
-
+    var RequestTimeout = setTimeout(function () {
+      $('#video_res').append('<div class="not_found">Failed to get results</div>');
+      $('.vid_btn_div').css('display', 'none');
+    }, 8000);
     $('.video_btn').click(function () {
       $(this).data('clicked', true);
       vid_click_time = vid_click_time + 1;
@@ -103,12 +106,10 @@
       });
     }
 
-    console.log(request);
     request.execute(function (response) {
       token = response.nextPageToken;
       var num_items = response.result.items.length;
 
-      console.log(response);
       var srchItems = response.result.items;
       $.each(srchItems, function (index, item) {
         vidTitle = item.snippet.title;
@@ -123,4 +124,5 @@
         $('.vid_btn_div').css('display', 'none');
       }
     });
+    clearTimeout(RequestTimeout);
   }

@@ -394,9 +394,9 @@
   }
   
   .main_container {
-    background-image: url(../images/f2.jpg);
+    background-image: url(../images/Food.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 50% 35%;
   }
   
   .main_content {
