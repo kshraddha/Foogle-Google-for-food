@@ -1,23 +1,45 @@
-Acorn squash
-Adzuki beans
+Almond Malted Brittle Bars
+American Chop Suey
+Antipasto Salad
+Apple Chunkies
+Apple Cranberry Egg Rolls
+Apple Crisp
+Apple Doughnut Bombs
+Apple Topped Cake
+Apple Zucchini Crumb Bars
+Apple-Stuffed Acorn Squash
+Asian Barbecue Chicken Wings
+Asian Barbecue Sauce
+Asian Chicken Salad
+Asian Chicken Stock
+Asian Citrus Vinaigrette
+Asian Noodle Salad with Chicken
+Asian Noodle Soup
+Asparagus Lemon Risotto
+Avocado Chicken Pasta Salad
+Avocado Poppy Seed Dressing
 Alcohol
-Algae
 Almond milk
 Almonds
-Anchovies
 Apples
 Apricots
-Arctic char
 Artichokes
-Arugula
-Asparagus
-Autumn crocus
+Asparagu
 Avocado oil
 Avocados
+Baked Chicken Salad
+Baked Crusted Salmon
+Baked Fig Crostini
+Baked Gnocchi with Italian Sausage
+Baked Stuffed Parmesan Tomatoes
+Baked Stuffed Shrimp
+Baked Zucchini Fries
+Banana Chocolate Chip
+Barbecue Chicken Wings
+Beans and Rice
+Beef and Bean Enchiladas
 Bacon
-Balsamic vinegar
 Bananas
-Barbecued meat
 Basil
 Bean curd
 Beef
@@ -36,17 +58,15 @@ Black currants
 Black pepper
 Black rice
 Black tea
+Blue Cheese Dressing
 Blackberries
-Blackstrap molasses
-Blue-green algae
 Blueberries
-Bok choy
 Boysenberries
 Bran
 Brazil nuts
 Bread
 Broccoli
-Broccoli sprouts
+Broccoli sprout
 Brown mustard
 Brown rice
 Brown rice syrup
@@ -55,20 +75,17 @@ Buckwheat
 Buckwheat honey
 Butter
 Butternut squash
+Caramelized Onion Dip
+Caramelized Pineapple Topping
+Carrot and Ginger Soup
 Cabbage
-Cactus pears
 Canola oil
 Cantaloupe
 Carrots
 Cashews
 Cauliflower
-Caviar
-Cayenne pepper
-Celeriac
 Celery
 Celery seed
-Chamomile
-Chamomile tea
 Cheese
 Cherries
 Chicken
@@ -77,16 +94,12 @@ Chickpeas
 Chili powder
 Chilli peppers
 Chinese cabbage
-Chinese red yeast rice
-Chives
 Chocolate
 Cilantro
 Cinnamon
-Clams
 Coconut
 Coconut oil
 Coffee
-Collard greens
 Corn oil
 Crab
 Cranberries
@@ -94,21 +107,14 @@ Cream
 Crimini mushrooms
 Cucumbers
 Cumin
-Curcumin
 Cured meats
 Currants
-D - M
 Daidzein
 Dal
 Dill
-Dried herring
-Dried mackerel
 Dry beans
 Edamame
 Eggs
-Equol
-Escargot
-Essiac™ tea
 Fennel
 Fennel seed
 Fermented bean paste
@@ -117,10 +123,7 @@ Fermented vegetables
 Flaxseed
 Flaxseed oil
 Fried potatoes
-Garbanzo beans
-Garden cress
 Garlic
-Genistein
 Ghee
 Ginger
 Grape seed oil
@@ -136,30 +139,21 @@ Green peas
 Green tea
 Greens
 Guacamole
-Halibut
 Ham
 Hearts of palm
-Herring
 Holy basil
-Honey, min. processed
+Hone
 Honeydew melon
-Horseradish
 Hot peppers
 Hot sauce
 Hummus
 Indian mustard
 Kale
-Kefir
-Kelp
 Kidney beans
 Kimchi
 King crab
 King mackerel
 Kiwifruit
-Kohlrabi
-Kumquats
-Lake char
-Lake trout
 Lamb
 Lard
 Lavender
@@ -179,12 +173,8 @@ Long pepper
 Low-fat yogurt
 Macadamia nut oil
 Macadamia nuts
-Mackerel
 Maitake mushrooms
 Mangoes
-Mangosteen
-Marionberrries
-Maté
 Mayonnaise
 Meadow saffron
 Melons
@@ -200,42 +190,41 @@ Mustard
 Mustard greens
 Mustard oil
 Mutton
-N - R
 Navy beans
 Oatmeal
 Oats
-Ohyo
 Olive oil
 Olives
 Onions
 Oranges
 Oysters
+palak paneer
+paneer masala
+pad thai
+pad kee mao
+yellow curry
+red curry
+green curry
+paneer pasanda
 Palm hearts
 Papaya
 Papaya seeds
 Paprika
 Parsley
 Parsley seed oil
-Partially-hydrogenated oil
-Passion fruit
-Pâtés
-Paw paw
+pasta
+pizza
 Peaches
 Peanut oil
 Peanuts
 Pears
 Peas
-Pennyroyal
 Peppermint
 Pepperoni
 Persian melon
 Persipan
 Pesto sauce
-Pickle relish
-Pickled beets
-Pickled herring
 Pickled papaya
-Pickled watermelon rind
 Pickles
 Pimento peppers
 Pineapple
@@ -244,7 +233,6 @@ Pink peppercorns
 Pinto beans
 Pistachio nuts
 Plantago
-Plantains
 Plums
 Pomegranate juice
 Pomegranates
@@ -258,19 +246,16 @@ Prawns
 Prickly pears
 Probiotic yogurt
 Processed soy protein
-Prosciutto
 Protein bars
 Prunes
 Pumpkin seed oil
 Pumpkin seeds
 Pumpkins
 Purple carrots
-Purple passion fruit
 Purple rice
 Purple sweet potatoes
 Radish
 Raisins
-Rapeseed oil
 Raspberries
 Red bean paste
 Red beans
@@ -285,9 +270,6 @@ Red sage
 Red spinach
 Red wine vinegar
 Reishi mushrooms
-Reishi tea
-Rhubarb
-Ribs
 Rice
 Rice bran
 Rice bran oil
@@ -297,40 +279,26 @@ Roasted almonds
 Roasted pork
 Roe
 Rolled oats
-Romaine lettuce
 Rosemary
-Rutabaga
 Rye
-S - Z
 Safflower oil
 Saffron
-Sage
-Sage tea
 Salmon, wild
 Salt
 Salted shrimp paste
 Sandwich meats
-Sardines
-Sauerkraut
 Sausages
-Scallions
-Scallops
-Seaweed
 Sesame oil
 Sesame seeds
 Shallots
 Shellfish
 Shiitake mushrooms
 Shrimp
-Sichuan peppers
-Smoked mackerel
 Smoked turkey
 Snails
 Snap beans
 Snow peas
 Soba noodles
-Soy infant formula
-Soy protein isolate
 Soybean curd
 Soybean oil
 Soybean paste
@@ -343,9 +311,6 @@ Squash
 Steak
 Strawberries
 String beans
-Sturgeon roe
-Subtropical ginger
-Sucrose
 Sugar
 Sugar beets
 Sugar snap peas
@@ -369,16 +334,11 @@ Turkey bacon
 Turkey, organic
 Turmeric
 Turnips and turnip greens
-Veal
 Vinegar
-Wakame
 Walnut oil
 Walnuts
-Wasabi
-Watercress
 Watermelon
 Watermelon seeds
-Well-done meat
 Wheat bran
 Wheat germ
 Wheat grass
@@ -396,12 +356,5 @@ Wild saffron
 Wine
 Winter squash
 Yams
-Yerba maté
 Yogurt
 Zucchini
-
- 
- 
- 
- 
-

@@ -246,14 +246,13 @@ h2 {
   background-color: #c41200;
 }
 
-
-}
 .bg_col {
   height: 100%;
   width: 100%;
   background-color: white;
   border: 1px solid #E8E8E8;
 }
+
 .recipe_name,
 .vid_title {
   color: #444040;
@@ -263,50 +262,61 @@ h2 {
   margin-bottom: 5px;
   font-weight: 600;
 }
+
 .text_center {
   text-align: center;
 }
+
 .recipe_cal,
 .vid_channel {
   color: #444040;
   margin: 0;
   font-weight: 400
 }
+
 .recipe_img {
   object-fit: cover;
   width: 100%;
 }
+
 .recipe_url_c {
   color: #c41200;
   display: inline-block;
   font-weight: 400
 }
+
 .recipe_url {
   color: #444040;
   font-weight: 400;
 }
+
 a:hover {
   text-decoration: none;
   color: inherit;
 }
+
 a {
   text-decoration: none;
 }
+
 #v_player {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border: none;
 }
+
 #video_res {
   margin: auto;
 }
+
 .more_div {
   margin: 0 auto;
   background-color: #edefed;
   padding: 15px 0;
   display: none;
 }
+
 .more_btn {
   font-size: 18px;
   height: 30px;
@@ -316,33 +326,40 @@ a {
   border: 1px solid #941407;
   border-radius: 5px;
 }
+
 .not_found {
   font-size: 18px;
   font-weight: 600;
 }
+
 .iframe {
   background-color: white;
   margin: 0;
   padding: 5px;
 }
+
 .video_info {
   background-color: white;
   margin: 0;
   padding: 5px;
 }
+
 .result_container {
   background-color: #edefed;
   margin: 0 auto 15px auto;
   max-width: 1000px;
 }
+
 .page_wrap {
   min-height: 100vh;
   margin-bottom: -90px;
 }
+
 .page_wrap:after {
   content: "";
   display: block;
 }
+
 .page_wrap:after,
 footer {
   height: 90px;
