@@ -3,61 +3,61 @@
     {
       "name": "Pasta Primavera",
       "by": "Chef John",
-      "image": "../images/pastajohn.jpg",
+      "image": "images/pastajohn.jpg",
       "link": "http://allrecipes.com/recipe/236218/chef-johns-pasta-primavera"
     },
     {
       "name": "Chocolate Cake",
       "by": "Shirleyo",
-      "image": "../images/chocalotecake.jpg",
+      "image": "images/chocalotecake.jpg",
       "link": "http://allrecipes.com/recipe/17981/one-bowl-chocolate-cake-iii/"
     },
     {
       "name": "Spinach Artichoke Dip",
       "by": "Juli",
-      "image": "../images/spinachdip.JPG",
+      "image": "images/spinachdip.JPG",
       "link": "http://www.food.com/recipe/spinach-artichoke-dip-1209"
     },
     {
       "name": "Oatmeal Cookies",
       "by": "Merrie Wold",
-      "image": "../images/oatmeal.JPG",
+      "image": "images/oatmeal.JPG",
       "link": "http://www.food.com/recipe/best-oatmeal-cookies-54351"
     },
     {
       "name": "Tiramisu",
       "by": "Food Network",
-      "image": "../images/tiramisu.jpg",
+      "image": "images/tiramisu.jpg",
       "link": "http://www.foodnetwork.com/recipes/food-network-kitchens/tiramisu-recipe.html"
     },
     {
       "name": "Pumpkin Rice Noodles",
       "by": "Rasa",
-      "image": "../images/pumpkin_noodles1.jpg",
+      "image": "images/pumpkin_noodles1.jpg",
       "link": "http://rasamalaysia.com/pumpkin-rice-noodles"
     },
     {
       "name": "Paneer Butter Masala",
       "by": "Vah Chef",
-      "image": "../images/indian.jpg",
+      "image": "images/indian.jpg",
       "link": "http://www.vahrehvah.com/paneer-makhani-butter-masala"
     },
     {
       "name": "Carrot Cake",
       "by": "Junkie",
-      "image": "../images/carrotcake.jpg",
+      "image": "images/carrotcake.jpg",
       "link": "http://www.food.com/recipe/blue-ribbon-carrot-cake-with-buttermilk-glaze-176207"
     },
     {
       "name": "Meringue",
       "by": "Saundra",
-      "image": "../images/curst.jpg",
+      "image": "images/curst.jpg",
       "link": "http://www.food.com/recipe/best-oatmeal-cookies-54351"
     },
     {
       "name": "Cajun Chicken Pasta",
       "by": "Lorac",
-      "image": "../images/cajunpasta.jpg",
+      "image": "images/cajunpasta.jpg",
       "link": "http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087"
     }
   ]
