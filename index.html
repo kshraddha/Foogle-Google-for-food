@@ -13,6 +13,7 @@
   <script src="js/jquery-ui.min.js"></script>
   <script src="js/autocomplete.js"></script>
   <link href="css/style.css" rel="stylesheet">
+  <script src="js/recipeoftheday.js"></script>
 </head>
 
 <body>
@@ -79,14 +80,14 @@
       <div class="row_col col2 col-sm-7 text_center">
         <div class="row row_nest">
           <div class="col-sm-12 col2_1">
-            <a href="paneer.html">
+            <a id="recipe_day_link" target="_blank">
               <div class="col1_nest col_nest">
                 <div class="col1_nest_head text_center">Recipe of the day</div>
-                <div class="col1_nest_content text_center">Paneer Butter Masala</div>
+                <div id="recipe_day_name" class="col1_nest_content text_center"></div>
                 <div class="col1_nest_chef text_center">by
-                  <h6>Amit</h6></div>
+                  <h6 id="recipe_day_author"></h6></div>
               </div>
-              <div class="img1"></div>
+              <div id="recipe_day_image" class="img1"></div>
             </a>
           </div>
           <div class="col-sm-12 col2_2">
@@ -117,7 +118,7 @@
           <a href="pizza.html">
             <div class="slider_img pizza">
               <div class="slider_text text_center">
-                <h4>Pizza</h4>
+                <h4>Veggie Pizza</h4>
               </div>
             </div>
           </a>
@@ -137,7 +138,7 @@
           <a href="thai.html">
             <div class="slider_img noodle">
               <div class="slider_text text_center">
-                <h4>Pad thai</h4>
+                <h4>Pad Thai</h4>
               </div>
             </div>
           </a>
@@ -147,7 +148,7 @@
           <a href="paneer.html">
             <div class="slider_img paneer">
               <div class="slider_text text_center">
-                <h4>Paneer makhani</h4>
+                <h4>Paneer Makhani</h4>
               </div>
             </div>
           </a>
