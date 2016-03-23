@@ -1,7 +1,6 @@
   var recipe_res_num = 0;
   var q;
   var vid_click_time = 0;
-  var rec_click_time = 0;
   var token;
 
   function loadinfo(e) {
@@ -50,28 +49,15 @@
         if (count < recipe_res_num + 6) {
           $('.rec_btn_div').css("display", "none");
         }
+        recipe_res_num = recipe_res_num + 6;
+        if (recipe_res_num > 28) {
+          $('.rec_btn_div').css("display", "none");
+        }
         clearTimeout(RequestTimeout);
       }
     });
 
   }
-
-
-  function load_rec_btn() {
-    recipe_res_num = recipe_res_num + 6;
-    if (recipe_res_num > 32) {
-      $('.rec_btn_div').css("display", "none");
-    }
-    edamam();
-  }
-
-
-  function load_vid_btn() {
-    if (vid_click_time > 3) {
-      $('.vid_btn_div').css('display', 'none');
-    }
-  }
-
 
   function keyWordsearch() {
     gapi.client.setApiKey('AIzaSyCkrOf8PIkCk6K7aluLZFctNM32KmLMsjI');
@@ -121,6 +107,9 @@
       if (num_items == 0) {
         $('#video_res').append('<div class="not_found">No Results found</div>');
         $('#video').css("background-color", "#edefed");
+        $('.vid_btn_div').css('display', 'none');
+      }
+      if (vid_click_time > 3) {
         $('.vid_btn_div').css('display', 'none');
       }
     });
