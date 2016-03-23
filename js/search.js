@@ -42,7 +42,7 @@
         for (var i = 0; i < articleList2.length; i++) {
           var em = articleList2[i];
           var calories = Math.ceil(em.recipe.calories);
-          $('#edamam').append('<div class="col-md-4 col-xs-6 recipe_col"><a target="_blank" href="' + em.recipe.url + '">' + '<div class="bg_col">' + '<img class="recipe_img" src="' + em.recipe.image + '">' + '<div class="recipe_content"><h4 class="recipe_name">' + em.recipe.label + '</h4>' + '<h5 class="recipe_cal">CALORIES: ' + calories + '</h5>' + '<a class="recipe_url" target="_blank" href="' + em.recipe.url + '">By: <h5 class="recipe_url_c">' + em.recipe.source + '<h5></a></div>' + '</div>' +
+          $('#edamam').append('<div class="col-md-4 col-xs-6 recipe_col"><a target="_blank" href="' + em.recipe.url + '">' + '<div class="bg_col">' + '<img class="recipe_img" src="' + em.recipe.image + '">' + '<div class="recipe_content"><h4 class="recipe_name">' + em.recipe.label + '</h4>' + '<h5 class="recipe_cal">CALORIES: ' + calories + '</h5>' + '<div class="recipe_url" target="_blank">by: <span class="recipe_url_c">' + em.recipe.source + '</span></div></div>' + '</div>' +
             '</a></div>');
         };
         $('.rec_btn_div').css("display", "block");

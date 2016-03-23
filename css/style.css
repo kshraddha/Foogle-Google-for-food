@@ -273,6 +273,9 @@
     .thai_bottom {
       font-size: 16px;
     }
+    .col1_nest_content {
+      padding: 6px 0;
+    }
     .slider_text h4 {
       font-size: 30px;
       padding-top: 5px;
