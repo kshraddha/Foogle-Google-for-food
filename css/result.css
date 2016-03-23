@@ -76,7 +76,7 @@ h2 {
     height: 35px;
   }
   .recipe_url {
-    height: 22px;
+    height: 36px;
     font-size: 14px;
   }
   .recipe_url_c {
@@ -287,13 +287,13 @@ h2 {
 
 .recipe_url_c {
   color: #c41200;
-  display: inline-block;
   font-weight: 400
 }
 
 .recipe_url {
   color: #444040;
   font-weight: 400;
+  overflow: hidden;
 }
 
 a:hover {
