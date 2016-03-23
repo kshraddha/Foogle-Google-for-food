@@ -72,6 +72,9 @@ h2 {
     font-size: 14px;
     padding-top: 5px;
   }
+  .vid_channel {
+    height: 35px;
+  }
   .recipe_url {
     height: 22px;
     font-size: 14px;
@@ -120,6 +123,9 @@ h2 {
     height: 33px;
     font-size: 17px;
     padding-top: 7px;
+  }
+  .vid_channel {
+    height: 41px;
   }
   .recipe_url {
     height: 22px;
@@ -342,6 +348,10 @@ a {
   background-color: white;
   margin: 0;
   padding: 5px;
+}
+
+.vid_channel {
+  overflow: hidden;
 }
 
 .result_container {
